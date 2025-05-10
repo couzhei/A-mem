@@ -6,6 +6,8 @@ import os
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
+MEMORY_STORE_DIR = "."  # TODO: To be determined
+
 
 class AgentMemory:
     """
